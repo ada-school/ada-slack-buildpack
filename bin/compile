@@ -16,7 +16,7 @@ export_env_dir() {
 
 export_env_dir $3
 
-SLACK_MESSAGE="*$HEROKU_APP_NAME* was deployed: https://github.com/ada-school/ada-lms-graphql/commit/$SOURCE_VERSION"
+SLACK_MESSAGE="*$HEROKU_APP_NAME* was deployed: https://github.com/ada-school/ada-lms/commit/$SOURCE_VERSION"
 
 echo "-----> Notifying Slack that the deploy is complete"
 echo "       $SLACK_MESSAGE"
